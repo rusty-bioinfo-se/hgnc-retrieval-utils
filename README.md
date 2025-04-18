@@ -91,6 +91,12 @@ Options:
 Please see the database schema for SQLite [here](database/create_table.sqlite.ddl.sql).<br>
 Please see the database schema for MySQL [here](database/create_table.mysql.ddl.sql).<br>
 
+## Schema Diagram
+
+Here is the mocked schema in dbdiagram.io:<br>
+<br>
+<img src="docs/schema.png" width="400" alt="Database schema">
+
 ## TODO
 
 Please see the [TODO](docs/TODO.md) for planned improvements.
