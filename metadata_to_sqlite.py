@@ -9,7 +9,9 @@ conn = sqlite3.connect("gene_database.db")
 conn.execute("PRAGMA foreign_keys = ON;")
 
 # Insert into hgnc_genes (exclude Gene_Aliases)
-hgnc_df = df[["HGNC_ID", "HGNC_Gene_Name", "Hg38_Coordinates", "Hg19_Coordinates", "Disease"]]
+hgnc_df = df[
+    ["HGNC_ID", "HGNC_Gene_Name", "Hg38_Coordinates", "Hg19_Coordinates", "Disease"]
+]
 hgnc_df.to_sql("hgnc_genes", conn, if_exists="append", index=False)
 
 # Insert into gene_aliases
