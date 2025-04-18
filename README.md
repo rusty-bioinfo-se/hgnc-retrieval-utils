@@ -8,6 +8,9 @@ Please see the [INSTALL](docs/INSTALL.md) instructions.
 
 ## Sample invocation
 
+For PMID `38790019`, the invocation should be `python main.py --pmid 38790019`.
+
+
 ```shell
  python main.py --pmid 38790019 --verbose
 --config_file was not specified and therefore was set to 'conf/config.yaml'
