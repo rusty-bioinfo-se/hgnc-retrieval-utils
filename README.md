@@ -94,3 +94,7 @@ Please see the database schema for MySQL [here](database/create_table.mysql.ddl.
 ## TODO
 
 Please see the [TODO](docs/TODO.md) for planned improvements.
+
+## Contact
+
+Please send inquiries to Jay Sundaram.
