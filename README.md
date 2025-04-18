@@ -152,7 +152,9 @@ tumor protein p53|LFS1
 tumor protein p53|p53
 ```
 
+## CHANGELOG
 
+Please see the [CHANGELOG](docs/CHANGELOG.md) to see changes for each release.
 
 ## TODO
 
