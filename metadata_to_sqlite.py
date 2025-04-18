@@ -1,5 +1,6 @@
-import pandas as pd
 import sqlite3
+
+import pandas as pd
 
 # Read CSV
 df = pd.read_csv("gene_metadata.csv")

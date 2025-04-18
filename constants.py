@@ -1,8 +1,6 @@
 import logging
 import os
-
 from datetime import datetime
-
 
 DEFAULT_PROJECT = "bg-retrieval-utils"
 

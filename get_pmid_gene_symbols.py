@@ -1,10 +1,11 @@
-import requests
 import json
-from Bio import Entrez
-import time
-import spacy
-from scispacy.abbreviation import AbbreviationDetector
 import re
+import time
+
+import requests
+import spacy
+from Bio import Entrez
+from scispacy.abbreviation import AbbreviationDetector
 
 # TODO: Add proper command-line argument parsing.
 DEFAULT_PMID = "38790019"

@@ -1,23 +1,23 @@
 """Retrieve gene info for PMID."""
 
-import os
-import sys
-import click
-import pathlib
+import calendar
+import csv
 import json
 import logging
-import calendar
+import os
+import pathlib
+import sys
 import time
-import yaml
-import requests
-import pandas as pd
-from time import sleep
-import csv
-
-from uuid import uuid4
 from datetime import datetime
-from rich.console import Console
+from time import sleep
 from typing import Dict
+from uuid import uuid4
+
+import click
+import pandas as pd
+import requests
+import yaml
+from rich.console import Console
 
 import constants
 from file_utils import check_infile_status
