@@ -1,17 +1,12 @@
 """Retrieve gene info for PMID."""
 
-import calendar
 import csv
-import json
 import logging
 import os
 import pathlib
 import sys
-import time
-from datetime import datetime
 from time import sleep
 from typing import Dict
-from uuid import uuid4
 
 import click
 import pandas as pd
