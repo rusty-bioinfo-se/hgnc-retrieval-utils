@@ -22,7 +22,7 @@ Data saved to /tmp/sundaram/bg-retrieval-utils/main/2025-04-18-152719/38790019_g
 Execution of '/home/sundaram/bg/projects/hgnc-retrieval-utils/main.py' completed
 ```
 
-## Retrieve metadata
+## Retrieved metadata
 
 
 Here are the contents of the comma-separated file:
