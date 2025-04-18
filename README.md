@@ -97,6 +97,14 @@ Here is the mocked schema in dbdiagram.io:<br>
 <br>
 <img src="docs/schema.png" width="400" alt="Database schema">
 
+## Database Loader
+
+To load the metadata file present in the current working directory:
+
+```shell
+python metadata_to_sqlite.py 
+```
+
 
 ## Query results
 
